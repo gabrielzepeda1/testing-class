@@ -1,6 +1,6 @@
 import { useFormContext } from "react-hook-form/dist";
 
-const formValidationi = (errors, errorKey) { 
+const formValidation = (errors, errorKey) { 
     return errors[errorKey] ? <Typography color="red">{errors[errorKey].message}</Typography> : ''
 }
 
